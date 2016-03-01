@@ -1,0 +1,40 @@
+<!--Doctype-->
+<%= erb :"global/bloques/doctype" %>
+
+<!--Head-->
+<%= erb :"global/bloques/head" %>
+
+<body>
+<div class="page-wrapper">
+
+  <!-- Preloader -->
+  <div class="preloader"></div>
+
+  <!-- Main Header -->
+  <%= erb :"global/bloques/header" %>
+  <!--End Main Header -->
+
+  <!-- Page Banner -->
+  <section class="page-banner" style="background-image:url(images/background/page-banner.jpg);">
+    <div class="auto-container">
+      <h1>Our Services</h1>
+    </div>
+  </section>
+
+  <%= yield %>
+
+  <br><br><br>
+
+  <!--Main Footer-->
+  <%= erb :"global/bloques/footer" %>
+
+</div>
+<!--End pagewrapper-->
+
+<!--Scroll to top-->
+<%= erb :"global/bloques/scroll" %>
+
+<!--javascripts-->
+<%= erb :"global/bloques/javascript" %>
+</body>
+</html>
