@@ -56,11 +56,16 @@ end
 
 error do
   @titulo = " Error 404"
-  erb (I18n.locale.to_s + '/vistas/independientes/page-404').to_sym, :layout => ("#{I18n.locale.to_s}/layouts/contenido").to_sym
+  erb (I18n.locale.to_s + '/vistas/independientes/page-404').to_sym, :layout => ("global/layouts/content").to_sym
 end
 
 not_found do
   # status 404
   @titulo = " Error 404"
-  erb (I18n.locale.to_s + '/vistas/independientes/page-404').to_sym, :layout => ("#{I18n.locale.to_s}/layouts/contenido").to_sym
+  erb (I18n.locale.to_s + '/vistas/independientes/page-404').to_sym, :layout => ("global/layouts/content").to_sym
+end
+
+get '/:locale/cifras-relevantes' do
+  @titulo = "Cifras Relevantes"
+  erb :"#{I18n.locale}/vistas/cifras-relevantes", :layout => ("global/layouts/content").to_sym
 end
