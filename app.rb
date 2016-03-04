@@ -69,3 +69,8 @@ get '/:locale/cifras-relevantes' do
   @titulo = "Cifras Relevantes"
   erb :"#{I18n.locale}/vistas/cifras-relevantes", :layout => ("global/layouts/content").to_sym
 end
+
+get '/:locale/mensaje-presidente' do
+  @titulo = "Mensaje del Presidente"
+  erb :"#{I18n.locale}/vistas/mensaje-presidente", :layout => ("global/layouts/content").to_sym
+end
