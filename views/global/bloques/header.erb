@@ -1,7 +1,7 @@
 <header class="main-header">
   <div class="auto-container clearfix">
     <!--Logo-->
-    <div class="logo"><a href="index.html"><img src="/images/logo.png" alt="Famsa" title="Famsa"></a></div>
+    <div class="logo"><a href="<%= "/#{I18n.locale}"%>"><img src="/images/logo.png" alt="Famsa" title="Famsa"></a></div>
 
     <!--Main Menu-->
     <nav class="main-menu">
@@ -16,7 +16,7 @@
 
       <div class="navbar-collapse collapse clearfix">
         <ul class="navigation">
-          <li class="current dropdown"><a href="index.html">Home</a>
+          <li class="current dropdown"><a href="<%= "/#{I18n.locale}"%>">Home</a>
             <ul class="submenu">
               <li><a href="index.html">Home Style One</a></li>
               <li><a href="index-2.html">Home Style Two</a></li>
@@ -28,25 +28,25 @@
               <li><a href="services.html">Services</a></li>
             </ul>
           </li>
-          <li class="dropdown"><a href="#">pages</a>
-            <ul class="submenu">
-              <li><a href="faq.html">FAQ</a></li>
-              <li class="dropdown"><a href="testimonials-v1.html">Testimonials</a>
-                <ul class="submenu">
-                  <li><a href="testimonials-v1.html">Testimonials V1</a></li>
-                  <li><a href="testimonials-v2.html">Testimonials V2</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"><a href="gallery-style-one.html">Gallery</a>
-                <ul class="submenu">
-                  <li><a href="gallery-style-one.html">Gallery Style One</a></li>
-                  <li><a href="gallery-style-two.html">Gallery Style Two</a></li>
-                  <li><a href="gallery-style-three.html">Gallery Style Three</a></li>
-                  <li><a href="gallery-style-four.html">Gallery Style Four</a></li>
-                </ul>
-              </li>
-              <li><a href="ticket.html">Ticket</a></li>
-            </ul>
+          <li class="dropdown"><a href="<%= "/#{I18n.locale}/cifras-relevantes" %>"><%= I18n.t 'cifras-relevantes' %></a>
+            <!--<ul class="submenu">-->
+              <!--<li><a href="faq.html">FAQ</a></li>-->
+              <!--<li class="dropdown"><a href="testimonials-v1.html">Testimonials</a>-->
+                <!--<ul class="submenu">-->
+                  <!--<li><a href="testimonials-v1.html">Testimonials V1</a></li>-->
+                  <!--<li><a href="testimonials-v2.html">Testimonials V2</a></li>-->
+                <!--</ul>-->
+              <!--</li>-->
+              <!--<li class="dropdown"><a href="gallery-style-one.html">Gallery</a>-->
+                <!--<ul class="submenu">-->
+                  <!--<li><a href="gallery-style-one.html">Gallery Style One</a></li>-->
+                  <!--<li><a href="gallery-style-two.html">Gallery Style Two</a></li>-->
+                  <!--<li><a href="gallery-style-three.html">Gallery Style Three</a></li>-->
+                  <!--<li><a href="gallery-style-four.html">Gallery Style Four</a></li>-->
+                <!--</ul>-->
+              <!--</li>-->
+              <!--<li><a href="ticket.html">Ticket</a></li>-->
+            <!--</ul>-->
           </li>
           <li class="dropdown"><a href="schedule.html">Schedule</a>
             <ul class="submenu">

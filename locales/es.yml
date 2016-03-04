@@ -8,7 +8,8 @@ es:
   Ir: "Ir"
   buscando: "¿Qué está buscando?"
                                                   #Menus
-    #Menu Pappel
+    #Menu Cifras relevantes
+  cifras-relevantes: Cifras relevantes
   tu-hogar: "En tu hogar"
   tu-empresa: "En tu empresa"
   atencion-clientes: "Atención a Clientes"
