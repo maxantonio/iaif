@@ -1,0 +1,27 @@
+.social{
+    position: relative;
+    display: block;
+    font-size: 15px;
+    padding: 40px 25px;
+    color: #a6a6a6;
+    background: none;
+    overflow: hidden;
+    text-transform: uppercase;
+    transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+}
+.social > a{
+    color: #a6a6a6 !important;
+    text-decoration: none;
+}
+.social > a:hover{
+    color: #527588 !important;
+    text-decoration: none;
+}
+.fixed-top-header .main-menu .navbar-collapse > ul > li > span  {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
