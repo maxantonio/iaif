@@ -78,3 +78,9 @@
         -ms-transform: translateY(-15px);
         -o-transform: translateY(-15px);
         transform: translateY(-15px); } }
+
+.color-active{
+    background-color: #527588;
+    border: 1px solid  #527588 !important;
+    color: #FFFFFF;
+}
