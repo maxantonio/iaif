@@ -87,6 +87,10 @@
 }
 .borderless{
     border-bottom: 2px solid #000000;
+    text-align: justify;
+}
+.borderless  > thead > tr > th{
+    border-bottom: none;
 }
 .borderless  > tbody > tr > td{
     border-top: none;
