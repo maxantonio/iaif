@@ -85,3 +85,6 @@
     border: 1px solid  #527588 !important;
     color: #FFFFFF;
 }
+.black-border-bottom{
+    border-bottom: 1px solid;
+}
